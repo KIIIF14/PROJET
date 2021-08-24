@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.floating {
+  width: 50%;
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 1px;
+	margin-top: 8px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); }
+}
+.all{
+
+}
+
+.Hadef {
+  align:left;
+  width: 50%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  padding-left: 80px;
+}
+
+.ardis {
+  font-family: 'Bebas Neue', cursive;
+  width: 50%;
+  padding-top: 200px;
+  font-size: 70px;
+
+}
+
+.shirt {
+  height: 50%;;
+  padding-top: 180px;
+  border-radius: 25px;
+  padding-right: 100px;
+
+  float:right;
+ }
+ .button{
+   margin-top: -70px;
+   margin-right: 200px;
+   float: right;
+   padding-right: 100px;
+   padding-bottom: 200px;
+   outline: none;
+   display: block;
+   border: 0;
+   font-size: 16px;
+   line-height: 1;
+   padding: 16px 30px;
+   border-radius: 30px;
+   background: #FFB830;
+   color: white;
+   cursor: pointer;
+   transition: 0.3s linear;
+   font-family: 'poppins', sans-serif;
+ }
+ .button:hover,
+ .button:focus{
+   background: #FFB830;
+ }
+  .button:active{
+  background:  #FFAA4C
+  }
+
+  .button2{
+    margin-top: -70px;
+    margin-right: 400px;
+    float: right;
+    outline: none;
+    display: block;
+    border: solid 1px #3DB2FF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: white;
+    color: #3DB2FF;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+
+  @media only screen and (min-width: 550px) {
+    .gallery {
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        margin-left: -4px;
+    }
+
+    .gallery div {
+        overflow: hidden;
+        margin: 0 0 8px 8px;
+        flex: auto;
+        height: 250px;
+        min-width: 150px;
+    }
+
+    .gallery div:nth-child(8n+1) {
+        width: 310px;
+    }
+
+    .gallery div:nth-child(8n+2) {
+        width: 270px;
+    }
+
+    .gallery div:nth-child(8n+3) {
+        width: 260px;
+    }
+
+    .gallery div:nth-child(8n+4) {
+        width: 310px;
+    }
+
+    .gallery div:nth-child(8n+5) {
+        width: 240px;
+    }
+
+    .gallery div:nth-child(8n+6) {
+        width: 190px;
+    }
+
+    .gallery div:nth-child(8n+7) {
+        width: 210px;
+    }
+
+    .gallery div:nth-child(8n+8) {
+        width: 170px;
+    }
+
+    .gallery div.wide {
+        width: 650px;
+    }
+
+    .gallery div.tall {
+        width: 650px;
+        height: 450px;
+    }
+
+    .gallery div.narrow {
+        width: 120px;
+    }
+
+    .gallery img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}

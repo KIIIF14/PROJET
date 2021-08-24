@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header{
+  padding-left: 25%;
+  margin: 10px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #3DB2FF;
+}
+
+.shirt {
+  height: 50%;
+  padding-top: 0px;
+  border-radius: 25px;
+  padding-right: 200px;
+
+  float:right;
+ }
